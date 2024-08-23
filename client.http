@@ -1,0 +1,9 @@
+POST http://localhost:3000/freight HTTP/1.1
+content-type: application/json
+
+[
+    {"name":"Option 4","type":"Delivery","cost":10,"estimated_days":3},
+    {"name":"Option 1","type":"Delivery","cost":10,"estimated_days":5},
+    {"name":"Option 2","type":"Custom","cost":5,"estimated_days":4},
+    {"name":"Option 3","type":"Pickup","cost":7,"estimated_days":1}
+]
